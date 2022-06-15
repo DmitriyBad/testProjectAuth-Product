@@ -1,0 +1,16 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[user]
+	name = Dmytro Bovkun
+	email = im.dmitriy.bovkyn@gmail.com
+[remote "origin"]
+	url = https://github.com/DmitriyBad/testProjectAuth-Product.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "main"]
+	remote = origin
+	merge = refs/heads/master
